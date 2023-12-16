@@ -1,0 +1,17 @@
+{
+  "name": "linesofcode",
+  "version": "0.0.1",
+  "description": "Script to count and provide the lines of code written in a specific file",
+  "main": "./build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "node ./build/main.js"
+  },
+  "author": "MoinakDey",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.2"
+  }
+}
